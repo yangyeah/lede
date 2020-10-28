@@ -7,9 +7,11 @@
 #
 name: OpenWrt-CI
 
+# on:
+#   watch:
+#     types: started
 on:
-  watch:
-    types: started
+  workflow_dispatch:
 
 jobs:
 
