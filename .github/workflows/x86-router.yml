@@ -102,6 +102,7 @@ jobs:
           CONFIG_PACKAGE_samba4-server=y
           CONFIG_PACKAGE_luci-app-samba4=y
           CONFIG_PACKAGE_luci-i18n-samba4-zh-cn=y
+          # CONFIG_PACKAGE_python3-numpy is not set
           CONFIG_PACKAGE_python3-pip=y
           CONFIG_PACKAGE_python3-requests=y
 
