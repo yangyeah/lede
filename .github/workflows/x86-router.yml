@@ -85,6 +85,9 @@ jobs:
           CONFIG_PACKAGE_vim-fuller=y
           CONFIG_PACKAGE_wget=y
           CONFIG_PACKAGE_tcpdump=y
+          # CONFIG_TARGET_IMAGES_PAD is not set
+          # CONFIG_VMDK_IMAGES is not set
+          # CONFIG_EFI_IMAGES is not set
           CONFIG_PACKAGE_v2ray=y
           CONFIG_V2RAY_JSON_INTERNAL=y
           CONFIG_V2RAY_EXCLUDE_V2CTL=y
@@ -93,6 +96,9 @@ jobs:
           CONFIG_V2RAY_DISABLE_NONE=y
           CONFIG_PACKAGE_v2ray-plugin=y
           CONFIG_v2ray-plugin_INCLUDE_GOPROXY=y
+          # CONFIG_PACKAGE_autosamba is not set
+          # CONFIG_PACKAGE_luci-app-samba is not set
+          # CONFIG_PACKAGE_samba36-server is not set
           CONFIG_PACKAGE_samba4-server=y
           CONFIG_PACKAGE_luci-app-samba4=y
           CONFIG_PACKAGE_luci-i18n-samba4-zh-cn=y
@@ -110,7 +116,6 @@ jobs:
           CONFIG_DRIVER_11AC_SUPPORT=y
           CONFIG_DRIVER_11AX_SUPPORT=y
           CONFIG_WPA_ENABLE_W=y
-          CONFIG_PACKAGE_iw=y
           CONFIG_PACKAGE_iw-full=y
           CONFIG_PACKAGE_wpa-supplicant=y
 
