@@ -133,6 +133,7 @@ jobs:
           CONFIG_PACKAGE_libusbmuxd-utils=y
           CONFIG_PACKAGE_plistutil=y
           CONFIG_PACKAGE_usbmuxd=y
+          CONFIG_TARGET_ROOTFS_PARTSIZE=1900
           EOF
           sed -i 's/^[ \t]*//g' ./.config
           make defconfig
