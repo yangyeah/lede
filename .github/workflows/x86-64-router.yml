@@ -5,7 +5,7 @@
 #
 # Copyright (C) 2020 KFERMercer
 #
-name: x86-router
+name: x86-64-router
 
 # on:
 #   watch:
